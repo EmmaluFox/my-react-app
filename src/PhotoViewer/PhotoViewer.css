@@ -1,0 +1,29 @@
+﻿
+.photos {
+}
+
+.photoList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    box-sizing: border-box;
+    align-content: space-between;
+    
+}
+.thumbnails {
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    object-fit: fill;
+}
+.heading {
+    font-family: "Blackadder ITC", serif;
+    font-size: 200%;
+    color: teal;
+    margin: 0.1vw;
+    text-align: center;
+}
+
