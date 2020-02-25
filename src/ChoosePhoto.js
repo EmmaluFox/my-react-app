@@ -1,7 +1,8 @@
-﻿﻿import React, {ReactPropTypes as PropTypes, useState} from "react";
-import 'src/PhotoViewer/PhotoViewer.css';
-import {ImageUrls} from 'src/GetImages/GetImages.js';
-import "src/GetImages.GetImages.js"
+﻿import * as ImageUrls from "jest-haste-map";
+
+﻿import React, {ReactPropTypes as PropTypes, useState} from "react";
+import {PhotoViewer} from "./PhotoViewer";
+import {getImages} from "./GetImages";
 
 
 function PhotoSelector(props) {

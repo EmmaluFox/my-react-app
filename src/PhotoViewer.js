@@ -3,6 +3,7 @@ import "./PhotoViewer.css";
 
 
 
+
 function PhotoViewer(props) {    // declare a new function called 'PhotoViewer'
 const photos = ["https://images.unsplash.com/photo-1510534638550-854751122e98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60", "https://images.unsplash.com/photo-1518842013791-b874be246c34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60", "https://images.unsplash.com/photo-1572274738401-abf0ce8c05ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"];
 var image;

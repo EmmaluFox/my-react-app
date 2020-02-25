@@ -19,4 +19,4 @@ function getImages() {
     return urls;
 }
 
-export const ImageUrls = getImages();
+export {getImages};

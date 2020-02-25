@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import './App.css';
-import {PhotoViewer} from "./PhotoViewer/PhotoViewer";
-import {ImageUrls} from "./GetImages/GetImages";
+import {PhotoViewer} from "./PhotoViewer";
+import {getImages} from "./GetImages";
 
 function App() {
-    const [selectedUrl, setSelectedUrl] = useState(ImageUrls[0]);
+    const imageUrls = getImages();
+    const [selectedUrl, setSelectedUrl] = useState(imageUrls[0]);
   return (
       <div>
         <h1 className={"heading"}>React Photo Viewer</h1>
