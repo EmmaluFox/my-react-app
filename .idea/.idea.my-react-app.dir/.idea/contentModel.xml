@@ -33,6 +33,7 @@
       <e p="node_modules\@typescript-eslint\parser" t="IncludeRecursive" />
       <e p="node_modules\@typescript-eslint\typescript-estree" t="IncludeRecursive" />
       <e p="node_modules\babel-jest" t="IncludeRecursive" />
+      <e p="node_modules\bootstrap" t="IncludeRecursive" />
       <e p="node_modules\chalk" t="IncludeRecursive" />
       <e p="node_modules\chokidar" t="IncludeRecursive" />
       <e p="node_modules\csstype" t="IncludeRecursive" />
@@ -48,11 +49,12 @@
       <e p="node_modules\jest-serializer" t="IncludeRecursive" />
       <e p="node_modules\jest-util" t="IncludeRecursive" />
       <e p="node_modules\jest-worker" t="IncludeRecursive" />
-      <e p="node_modules\pretty-error" t="IncludeRecursive" />
+      <e p="node_modules\node_modules-path" t="IncludeRecursive" />
       <e p="node_modules\pretty-format" t="IncludeRecursive" />
       <e p="node_modules\prop-types" t="IncludeRecursive" />
       <e p="node_modules\react" t="IncludeRecursive" />
       <e p="node_modules\react-dom" t="IncludeRecursive" />
+      <e p="node_modules\react-prop-types" t="IncludeRecursive" />
       <e p="node_modules\react-scripts" t="IncludeRecursive" />
       <e p="node_modules\realpath-native" t="IncludeRecursive" />
       <e p="node_modules\source-map" t="IncludeRecursive" />

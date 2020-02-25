@@ -1,12 +1,10 @@
 ﻿﻿import React, {useState} from 'react';
-
-
-
+import './PhotoViewer.css';
 const brokenImages = [
     1, 24, 32, 36, 44, 47
 ];
 
-function getImages() {
+function getImageUrls() {
     const urls = [];
 
     for (let i = 0; i < 50; i++) {
@@ -19,4 +17,4 @@ function getImages() {
     return urls;
 }
 
-export {getImages};
+export const ImageUrls = getImageUrls();

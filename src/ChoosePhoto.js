@@ -1,10 +1,8 @@
-﻿import * as ImageUrls from "jest-haste-map";
-
-﻿import React, {ReactPropTypes as PropTypes, useState} from "react";
-import {PhotoViewer} from "./PhotoViewer";
-import {getImages} from "./GetImages";
-
-
+﻿import React, {useState} from "react";
+import {Thumbnail} from "./Thumbnail";
+import {ImageUrls} from "./GetImages";
+import PropTypes from "prop-types";
+import './PhotoViewer.css';
 function PhotoSelector(props) {
     const images = ImageUrls
         .map((url, index) =>
@@ -27,3 +25,5 @@ PhotoSelector.propTypes = {
     selectedUrl: PropTypes.string.isRequired,
     setSelectedUrl: PropTypes.func.isRequired,
 };
+
+export { PhotoSelector };
