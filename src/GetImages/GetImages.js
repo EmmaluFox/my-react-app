@@ -1,5 +1,5 @@
 ﻿﻿import React, {useState} from 'react';
-
+import '../PhotoViewer/PhotoViewer.css';
 
 
 const brokenImages = [

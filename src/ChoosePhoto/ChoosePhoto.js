@@ -1,9 +1,8 @@
-﻿﻿import React, {ReactPropTypes as PropTypes, useState} from "react";
-import 'src/PhotoViewer/PhotoViewer.css';
-import {ImageUrls} from 'src/GetImages/GetImages.js';
-import "src/GetImages.GetImages.js"
-
-
+﻿import React, {useState} from "react";
+import {Thumbnail} from "../Thumbnails/Thumbnail";
+import {ImageUrls} from "../GetImages/GetImages";
+import PropTypes from "prop-types";
+import './PhotoViewer.css';
 function PhotoSelector(props) {
     const images = ImageUrls
         .map((url, index) =>
@@ -26,3 +25,5 @@ PhotoSelector.propTypes = {
     selectedUrl: PropTypes.string.isRequired,
     setSelectedUrl: PropTypes.func.isRequired,
 };
+
+export { PhotoSelector };
